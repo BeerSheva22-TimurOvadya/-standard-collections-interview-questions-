@@ -1,6 +1,10 @@
 package telran.test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+
+
+import java.util.*;
+import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +17,8 @@ class StandardCollectionTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		List<Integer> list = Arrays.asList(1, 2, 3, 4);
+		list.add(5);
 	}
 
 }
