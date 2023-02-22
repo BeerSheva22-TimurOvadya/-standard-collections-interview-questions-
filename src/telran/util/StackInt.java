@@ -2,11 +2,7 @@ package telran.util;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
-import java.util.Random;
-import java.util.stream.Collectors;
 
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
 
 public class StackInt {
 	private static LinkedList<Integer> stack = new LinkedList<>();
