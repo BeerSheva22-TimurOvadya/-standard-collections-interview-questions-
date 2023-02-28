@@ -20,6 +20,7 @@ public class MultiCountersStructure implements MultiCounters {
 		return res;
 	}
 	
+	
 
 	private void removeItems(Object item, int count) {
 		Set<Object> setItem = tree.get(count);
