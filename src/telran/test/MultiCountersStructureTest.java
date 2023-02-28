@@ -6,13 +6,16 @@ import java.util.HashSet;
 
 import org.junit.jupiter.api.Test;
 
-import telran.structure.MultiCountersStructure;
+import telran.structure.MultiCountersImpl;
+
+
 
 class MultiCountersStructureTest {
 
 	@Test
 	void multiCountersTest() {
-		MultiCountersStructure struct = new MultiCountersStructure();
+
+		 MultiCountersImpl struct = new  MultiCountersImpl();
 		HashSet<Object> set = new HashSet<>();
 		
 		assertEquals(1, struct.addItem("I love Java"));
